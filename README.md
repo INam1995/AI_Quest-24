@@ -1,26 +1,27 @@
-## Jira Query Predictor with Vector Database
+## AI_Quest'24 || Askify
+## Query Predictor with Vector Database 
 
 ### Overview
-This project leverages machine learning to predict Jira queries by utilizing solutions stored in a DVector database. The model is designed to enhance issue tracking and management by providing intelligent query suggestions based on historical data.
+This project applies machine learning to anticipate Jira queries by using solution data stored in a DVector database. The model is designed to improve issue tracking and management by offering intelligent query recommendations based on past data.
 
 ### Features
-- **Predictive Modeling**: Uses advanced algorithms to predict Jira queries.
-- **Vector Database Integration**: Efficiently retrieves and utilizes solution data stored in DVector for accurate predictions.
-- **Automated Query Suggestions**: Enhances productivity by automating the query suggestion process.
-- **Scalable and Adaptable**: Easily integrates with existing Jira setups and can be scaled to handle large datasets.
-
+- **Predictive Modeling**: Employs sophisticated algorithms to forecast queries.
+- **Vector Database Integration**: Efficiently pulls and leverages solution data stored in DVector for precise predictions.
+- **Automated Query Suggestions**: Boosts productivity by automating the process of query suggestions.
+- **Scalable and Adaptable**: Integrates seamlessly with Jira environments and scales to accommodate extensive datasets.
+  
 ### Tech Stack
-- **BERT Embeddings**: For transforming text data into meaningful vector representations.
-- **Vector Database-FAISS**: To store and manage solution vectors.
-- **Python**: Main programming language for model development and integration.
-- **TensorFlow/PyTorch**: For building and training the machine learning models.
-- **Flask/FastAPI**: For creating a web API to serve the model predictions.
-- **Django**: For creating a robust web application framework.
+- **Python**: Primary language for model development and deployment.
+- **TensorFlow/PyTorch**: Frameworks used for building and training the ML models.
+- **BERT Embeddings**: Converts text data into high-quality vector representations.
+- **Vector Database-FAISS**: Manages and retrieves solution vectors efficiently.
+- **Flask/FastAPI**: To provide a web API for model predictions.
+- **Django**: Used as a web application framework for robust performance.
 
 ### Getting Started
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/yourusername/jiraModelCreation.git
+    git clone https://github.com/yourusername/AI_Quest'24.git
     cd jiraModelCreation
     ```
 2. **Install Dependencies**:
